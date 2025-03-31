@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int Num, i;
+
+    printf("Digite um número inteiro positivo: ");
+    scanf("%d", &Num);
+
+    printf("Números pares entre 1 e %d:\n", Num);
+    for (i = 1; i <= Num; i++) {
+        if (i % 2 == 0) {
+            printf("%d ", i);
+        }
+    }
+    printf("\n");
+
+    return 0;
+}
